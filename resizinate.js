@@ -19,8 +19,8 @@ module.exports = function(width, height, cb) {
     var convert = spawn('convert', [
       image,
       '-resize', width + 'x' + height + '^',
+      '-gravity', 'Center',
       '-extent', width + 'x' + height,
-      '-gravity', 'center',
       '-'
     ]);
     convert.on('error', cb);
