@@ -1,0 +1,12 @@
+{
+  "name": "placeimg",
+  "version": "0.0.0",
+  "description": "placeholder images that you make yourself!",
+  "main": "app.js",
+  "repository": "",
+  "author": "Jon Packer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.2.6"
+  }
+}
